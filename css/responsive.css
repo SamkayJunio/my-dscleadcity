@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px) {
+  
+  /******
+  TWO COLUMN LAYOUT
+  ********/
+  #primary{
+      width: 50%;
+      float:left;
+  }
+
+  #secondrary{
+      width: 40%;
+      float: right;
+  }
+}
+
+/******************
+  page: home
+  ******************/
+#gallery li{
+    width:28.333333%
+}
+
+#gallery li:nth-child(4n){
+    clear:left;
+}
+
+@media screen and (min-width: 660px) {
+
+    h1{
+        font-size:2.5em;
+    }
+
+    h2{
+        font-size: 0.825;
+        margin-bottom: 20px;
+    }
+   
+}
